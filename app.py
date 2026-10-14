@@ -38,7 +38,6 @@ PAGE = """<!doctype html>
 {% endif %}
 """
 
-
 @app.get("/")
 def checker():
     days = request.args.get("days", type=int)
